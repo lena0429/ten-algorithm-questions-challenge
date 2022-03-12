@@ -1,4 +1,5 @@
-# Problem Description
+# 1. Anagram
+### Problem Description
 Given two strings s1 and s2, check if they are anagrams. Two strings are anagrams if they are made of the same characters with the same frequencies. 
 
 anagram - a word, phrase, or name formed by rearranging the letters of another, such as cinema, formed from iceman.
@@ -36,3 +37,17 @@ freq1 = freq2 => s1 and s2 are anagrams
 ### Big O 
 * Space Complexity - S(n) = 2n = O(n)
 * Time Complexity : O(n) => T(n) = O(nlogn) + O(nlogn) + n
+
+# 2. First and Last Position
+### Problem Description
+Given a sorted array of integers `arr` and an integer `target`, find the index of the first and last position of `target` in `arr`. If target cannot be found in `arr`, return[-1, -1].
+
+### Related Topic
+* Binary Search
+* Iterative Traversal
+
+### Solution 1 - Binary Search
+A binary search allows us to find the insertion index for a target number in a sorted array. 
+
+### Big O for Binary Search
+* time complexity - O(log N)
